@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Story from './components/Story';
-import Newsletter from './components/Newsletter';
-import Testimonials from './components/Testimonials';
-import WhatsAppCTA from './components/WhatsAppCTA';
+import Navbar from './components/Navbar.tsx';
+import Hero from './components/Hero.tsx';
+import Story from './components/Story.tsx';
+import Newsletter from './components/Newsletter.tsx';
+import Testimonials from './components/Testimonials.tsx';
+import WhatsAppCTA from './components/WhatsAppCTA.tsx';
 
 const App: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
